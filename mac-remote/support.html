@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Mac 遥控 支持中心 —— 用 iPad 远程掌控你的 Mac。遇到问题？邮件：maoxiaomao198206@163.com">
+<title>Mac 遥控 支持中心 · Igva Design</title>
+<style>
+  :root{
+    --bg:#f7faff;
+    --paper:#ffffff;
+    --ink:#1f2733;
+    --muted:#7d8aa0;
+    --line:#e6ecf7;
+    --brand:#2f6df6;
+    --brand-2:#7aa8ff;
+    --brand-soft:#eef3ff;
+    --radius:18px;
+    --shadow:0 10px 30px rgba(47,109,246,.10);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue","Segoe UI",Arial,sans-serif;
+    color:var(--ink);background:var(--bg);line-height:1.8;-webkit-font-smoothing:antialiased;
+  }
+  .topbar{max-width:860px;margin:0 auto;padding:22px 24px 0;display:flex;align-items:center;gap:10px}
+  .logo{display:flex;align-items:center;gap:9px;font-weight:700;letter-spacing:.4px}
+  .logo .mark{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;
+    background:linear-gradient(135deg,var(--brand-2),var(--brand));color:#fff;font-size:15px;font-weight:800;box-shadow:var(--shadow)}
+  .logo small{color:var(--muted);font-weight:600;font-size:13px}
+
+  .hero{max-width:860px;margin:18px auto 0;padding:46px 34px 40px;border-radius:26px;
+    background:radial-gradient(120% 120% at 0% 0%,#eaf1ff 0%,#f7faff 55%);
+    border:1px solid var(--line);box-shadow:var(--shadow);text-align:center}
+  .pill{display:inline-block;background:#fff;color:var(--brand);border:1px solid #d4e1ff;font-size:13px;font-weight:700;padding:6px 14px;border-radius:999px;margin-bottom:14px}
+  .hero h1{margin:0;font-size:34px;letter-spacing:.5px}
+  .hero .lead{color:var(--muted);margin-top:12px;font-size:15px}
+
+  .wrap{max-width:760px;margin:0 auto;padding:8px 22px 60px}
+
+  .contact{
+    background:linear-gradient(135deg,#eaf1ff,#f7faff);
+    border:1px solid var(--line);border-radius:var(--radius);padding:28px;margin:22px 0;text-align:center;box-shadow:var(--shadow)
+  }
+  .contact p{color:var(--muted);margin:0 0 16px;font-size:15px}
+  .mail{display:inline-flex;align-items:center;gap:9px;background:linear-gradient(135deg,var(--brand-2),var(--brand));
+    color:#fff;font-weight:700;text-decoration:none;padding:13px 26px;border-radius:14px;font-size:16px;box-shadow:var(--shadow)}
+  .mail:hover{opacity:.94;text-decoration:none}
+  .contact .addr{margin-top:14px;color:var(--muted);font-size:14px}
+  .contact .addr a{font-weight:700}
+
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:22px 26px;margin:22px 0;box-shadow:0 6px 18px rgba(31,39,51,.04)}
+  .card h2{display:flex;align-items:center;gap:10px;font-size:19px;margin:0 0 6px}
+  .card h2 .dot{width:9px;height:9px;border-radius:50%;background:linear-gradient(135deg,var(--brand-2),var(--brand))}
+
+  details{border-top:1px solid var(--line);padding:14px 2px}
+  details:first-of-type{border-top:none}
+  summary{cursor:pointer;font-weight:600;font-size:15.5px;color:var(--ink);list-style:none;display:flex;justify-content:space-between;align-items:center}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";color:var(--brand);font-size:20px;font-weight:700}
+  details[open] summary::after{content:"–"}
+  details p{margin:10px 0 2px;color:#46505f;font-size:15px}
+
+  a{color:var(--brand);text-decoration:none;font-weight:600}
+  a:hover{text-decoration:underline}
+
+  footer{max-width:760px;margin:34px auto 0;padding:22px;border-top:1px solid var(--line);
+    color:var(--muted);font-size:13px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+  .sig{font-weight:700;color:var(--ink);letter-spacing:.5px}
+  .sig span{color:var(--brand)}
+</style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="logo"><span class="mark">M</span> Mac 遥控 <small>· Igva Design</small></div>
+  </div>
+
+  <section class="hero">
+    <span class="pill">支持中心 / Support</span>
+    <h1>Mac 遥控</h1>
+    <p class="lead">用 iPad 远程掌控你的 Mac。遇到问题？我们很乐意帮你 🐾</p>
+  </section>
+
+  <div class="wrap">
+
+    <div class="contact">
+      <p>无论是连接异常、Bug、还是想加新功能，欢迎随时联系</p>
+      <a class="mail" href="mailto:maoxiaomao198206@163.com?subject=Mac%20%E9%81%A5%E6%8E%A7%20%E7%94%A8%E6%88%B7%E5%8F%8D%E9%A6%88">✉️ 发送邮件给我们</a>
+      <div class="addr">支持邮箱：<a href="mailto:maoxiaomao198206@163.com">maoxiaomao198206@163.com</a></div>
+    </div>
+
+    <div class="card">
+      <h2><span class="dot"></span>常见问题</h2>
+      <details open>
+        <summary>连不上 Mac 怎么办？</summary>
+        <p>请确认 iPad 与 Mac 在同一 Wi-Fi 下；在 App 连接页输入 Mac 的局域网地址（如 http://192.168.1.x:9000）；Mac 端控制台服务需处于运行状态。可在 Mac 终端执行 <code>ipconfig getifaddr en0</code> 查看当前 IP。</p>
+      </details>
+      <details>
+        <summary>双击按钮没有把窗口提到最前？</summary>
+        <p>双击仅对已打开的 App 触发"窗口置顶"；若 App 未运行，双击会先启动它。部分窗口跨多个桌面/Space 时，建议在 Mac「系统设置 → 隐私与安全性 → 辅助功能」中授权运行本服务所在的程序以启用增强置顶。</p>
+      </details>
+      <details>
+        <summary>文件夹 / 文件打不开？</summary>
+        <p>本地路径与 SMB 共享均支持，建议在"从 Mac 添加"时用浏览选择，避免手输路径出错；SMB 地址格式例如 <code>smb://server/share</code>。</p>
+      </details>
+      <details>
+        <summary>我的数据会上传到云端吗？</summary>
+        <p>不会。Mac 遥控 仅在你的 iPad 与同一局域网下的 Mac 之间通信，不经过任何第三方服务器。详见《隐私政策》。</p>
+      </details>
+      <details>
+        <summary>App 闪退怎么办？</summary>
+        <p>请附上设备型号、系统版本与复现步骤发邮件给我们，我们会尽快定位修复。</p>
+      </details>
+    </div>
+
+    <div class="card">
+      <h2><span class="dot"></span>反馈建议</h2>
+      <p>你的每条反馈都会进入我们的迭代清单。想让 Mac 遥控 更好用，随时写信给我们 🙌</p>
+    </div>
+
+  </div>
+
+  <footer>
+    <span>© 2026 Mac 遥控 · Igva Design</span>
+    <span class="sig">Igva Design <span>✦</span> 用心做小工具</span>
+  </footer>
+
+</body>
+</html>
